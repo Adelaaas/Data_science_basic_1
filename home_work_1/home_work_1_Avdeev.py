@@ -9,7 +9,7 @@ for i in arr:
 # задание 2
 x = int(input())
 y = int(input())
-if -1 <= x <= 1 and -1 <= y <= 1:
+if -2 <= x <= 2 and -2 <= y <= 2:
     print("принадлежит")
 else:
     print("нет")
