@@ -7,7 +7,7 @@ print(res, res2)
 # 2
 x = int(input())
 y = int(input())
-print(-2 <= x <= 2 and -2 <= y <= 2)
+print(-1 <= x <= 1 and -1 <= y <= 1)
 
 # 3
 A = [1, 2, 3, 4, 5, 6, 7, 7]
