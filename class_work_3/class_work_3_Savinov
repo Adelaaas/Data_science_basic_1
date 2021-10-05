@@ -1,0 +1,35 @@
+import numpy as np
+
+print('\n№1')
+a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(a)
+print(a[0, 0], a[1, 1], a[2, 2])
+
+print('\n№2')
+print(a[0:, 1], ": Девочки")
+print(a[1: 2, :], ": Мальчики")
+
+print('\n№3')
+print(a.shape)
+r = a.flatten()
+print(r.flatten(), r.shape)
+
+print('\n№4')
+for x in range(a.shape[1]):
+    print('Столбик: ', a)
+    for y in range(a.shape[0]):
+        print(arr[y, x])
+for x in range(a.shape[0]):
+    print('Строка: ', a)
+    for y in range(a.shape[1]):
+        print(a[x, y])
+
+print('\n№5')
+sum = 0
+count = 0
+for x in range(arr.shape[0]):
+    for y in range(arr.shape[1]):
+        sum = sum + arr[x, y]
+        count += 1
+num = sum / count
+print(sum, num)
