@@ -10,6 +10,7 @@ b = a.flatten()
 print(b)
 #4
 for l in range(a.shape[1]):
+  print('\n')
   for i in range(a.shape[0]):
     print(a[i,l])
 #5
