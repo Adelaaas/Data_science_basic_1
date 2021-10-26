@@ -55,21 +55,21 @@ print(A)
 
 # 8
 A = np.array([float(x) for x in input().split()])
-B = []
+Z = []
 for i in range(len(A)):
     if A[i] < 0:
-        B.append(floor(A[i]))
+        Z.append(floor(A[i]))
     else:
-        B.append(ceil(A[i]))
-print(B)
+        Z.append(ceil(A[i]))
+print(Z)
 
 # 9
 A = np.array([int(y) for y in input().split()])
 B = np.array([int(z) for z in input().split()])
-C = []
+Z = []
 for i in range(len(A)):
     for j in range(len(B)):
         if A[i] == B[j]:
-            C.append(A[i])
-C = sorted(C)
-print(C)
+            Z.append(A[i])
+Z = sorted(Z)
+print(Z)
