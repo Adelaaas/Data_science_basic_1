@@ -71,5 +71,5 @@ for i in range(len(A)):
     for j in range(len(B)):
         if A[i] == B[j]:
             Z.append(A[i])
-Z = sorted(Z)
+Z = sorted(set(Z))
 print(Z)
