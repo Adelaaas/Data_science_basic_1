@@ -65,3 +65,4 @@ srvoz = df['age'].mean()
 #fig.set_facecolor('floralwhite')
 #plt.show()
 #4
+#df.drop(df[df['income'] == '>50K'].index)
