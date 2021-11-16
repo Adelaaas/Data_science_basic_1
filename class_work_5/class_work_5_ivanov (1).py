@@ -50,19 +50,19 @@ import pandas as pd
 df = pd.read_csv("income_evaluation.csv")
 df.head()
 #1
-#df['education'].value_counts()
+a = df[' education'].value_counts()
 #2
 srvoz = df['age'].mean()
 #3
-#m = f = 0
-#for i in df['sex']:
-#  if (x == 'Male'):
-#   m += 1
-# else:
-#    f += 1
-#fig, ax = plt.subplots()
-#ax.bar(f, m)
-#fig.set_facecolor('floralwhite')
-#plt.show()
+m = f = 0
+for i in df[' sex']:
+  if (x == 'Male'):
+   m += 1
+else:
+    f += 1
+fig, ax = plt.subplots()
+ax.bar(f, m)
+fig.set_facecolor('floralwhite')
+plt.show()
 #4
-#df.drop(df[df['income'] == '>50K'].index)
+df.drop(df[df[' income'] == ' >50K'].index)
