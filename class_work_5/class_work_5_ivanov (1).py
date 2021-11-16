@@ -56,7 +56,7 @@ srvoz = df['age'].mean()
 #3
 m = f = 0
 for i in df[' sex']:
-  if (x == 'Male'):
+  if (x == ' Male'):
    m += 1
 else:
     f += 1
